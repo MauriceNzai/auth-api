@@ -1,0 +1,32 @@
+{
+  "name": "e-commerce-api",
+  "version": "1.0.0",
+  "description": "An e-commerce API built with Node.js, Express, and MongoDB.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "authors": "Maurice Nzai, ",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "eslint": "^9.3.0",
+    "express": "^4.19.2",
+    "express-validator": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.0"
+  },
+  "devDependencies": {
+    "jest": "29.5.0",
+    "nodemon": "3.1.0",
+    "supertest": "6.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
