@@ -1,15 +1,14 @@
 const express = require('express');
 const { check } = require('express-validator');
 
-const auth = require('../middleware/auth');
+const { auth } = require('../middlewares/auth');
 const { 
 	registerUser,
 	verifyUser,
 	loginUser,
 	requestPasswordReset,
 	resetPassword,
-	changePassword,
-	logoutUser } = require('../controllers/authController');
+	changePassword } = require('../controllers/authController');
 
 
 const router = express.Router();
